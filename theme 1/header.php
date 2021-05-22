@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>this is my header</title>
     <?php wp_head(); ?> <!-- load css file -->
 </head>
 <body>
-    
-</body>
-</html>
+<div class="homePage">
 
-<?php
-while(have_posts()) {
-    the_post(); ?>
-    <h2><?php the_title(); ?><h2>
-<?php }
-
-?>
+    <header class="topBar">
+        <h3 class="language"> Language </h3>
+    </header>
+    <nav class="navBar">
+        <img class="logo" src="../Images/screenshot.png"/>
+    <?php
+        wp_nav_menu(array('theme_location' => 'primary nav')); 
+        ?>
+    </nav> 
+    <img class="imageSlider" src="../Images/image 1.JPG"/>
+</div>

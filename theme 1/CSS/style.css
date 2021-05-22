@@ -1,0 +1,40 @@
+/*
+Thene Name: Swag
+Author: Renato
+Version: 1.0
+*/
+
+.topBar {
+    background-color: orange;
+    border: 1px solid white;
+}
+
+.language {
+    padding-left: 95%;
+    color: white;
+
+}
+
+.navBar {
+    margin: auto;
+    width: 86.7%;
+    text-align: center;
+    display: flex;
+    padding-left: 13%;
+    position: sticky;
+    border: 1px solid black;
+}
+
+.logo {
+    position: relative;
+    right: 15%;
+    padding-left: 8%;
+}
+
+.navBarTitle {
+    position: relative;
+    left: -9%;
+    padding: 1.5%;
+    color: lightskyblue;
+    font-size: 25px;
+}
