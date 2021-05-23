@@ -14,10 +14,10 @@
         <h3 class="language"> Language </h3>
     </header>
     <nav class="navBar">
-        <img class="logo" src="../Images/screenshot.png"/>
+        <!-- <img class="logo" src="../Images/screenshot.png"/> -->
     <?php
         wp_nav_menu(array('theme_location' => 'primary nav')); 
         ?>
-    </nav> 
-    <img class="imageSlider" src="../Images/image 1.JPG"/>
+    </nav>
+    <img class="imageSlider" src="<?php header_image(); ?>"/>
 </div>

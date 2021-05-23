@@ -1,20 +1,25 @@
-/*
-Thene Name: Swag
+/* 
+Theme Name: theme 1
 Author: Renato
-Version: 1.0
+Version: 1.0 
 */
 
+/*top of the page*/
 .topBar {
+    margin: 0px auto;
+    width: fit-content;
     background-color: orange;
     border: 1px solid white;
 }
 
 .language {
-    padding-left: 95%;
+    padding-left: 94%;
     color: white;
 
 }
 
+/*start navigation bar*/
+/* 
 .navBar {
     margin: auto;
     width: 86.7%;
@@ -37,4 +42,5 @@ Version: 1.0
     padding: 1.5%;
     color: lightskyblue;
     font-size: 25px;
-}
+} */
+/*end navigation bar */
