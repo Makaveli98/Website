@@ -5,17 +5,108 @@ Version: 1.0
 */
 
 /*top of the page*/
-.topBar {
+
+/*  navigation */
+
+
+body {
     margin: 0px auto;
-    width: fit-content;
-    background-color: orange;
+    
+}
+
+.topBar {
+    margin: 0px;
+    padding: 0px;
+    width: 101%;
+    height: 40px;
+
+    background-color: #FBA000;
     border: 1px solid white;
+ 
+    position: relative;
+    right: 9px;
 }
 
 .language {
-    padding-left: 94%;
     color: white;
+    margin-top: 0px;
+    margin-bottom: 5px;
 
+    position: relative;
+    left: 95%;
+    top: 6px;
+}
+
+.custom-logo {
+    width: 350px;
+    height: 165px;
+}
+
+.custom-logo-link {
+    width: 350px;
+    height: 165px;
+
+    position: relative;
+    top: 4px;
+    left: 90px;
+}
+
+.menu-primary-navigation-container {
+    position: relative;
+    left: 27%;
+    bottom: 85px;
+    width: 1400px;
+}
+
+.primary-menu {
+    margin: 0px;
+    padding: 0px;
+
+    list-style: none;
+    width: 100%;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    padding: 0px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #49C2CE;
+
+    position: relative;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    position: sticky;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    right: 5%;
+}
+
+/* end navigation */
+
+.image_slider {
+    width: 1700px;
+    height: 800px;
+
+    position: relative;
+    left: 6%;
+    bottom: 13px;
+
+    margin: 0px;
+    padding: 0px;
+
+    border: solid #FBA000 1px;
 }
 
 /*start navigation bar*/

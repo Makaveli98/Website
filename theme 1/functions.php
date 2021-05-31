@@ -12,25 +12,24 @@ add_action('wp_enqueue_scripts', 'theme_Files');
 
 
 
-// setup menus
+// add theme support
 function theme_setup() {
     add_theme_support('menus');
+    add_theme_support('custom-background');
+    add_theme_support('custom-header');
+    add_theme_support('custom-logo');
+    add_theme_support('post-thumbnails');
+    add_theme_support('post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat'));
 
     register_nav_menu('primary nav', 'primary navigation');
     register_nav_menu('footer', 'footer navigation');
 }
 
 add_action('init', 'theme_setup');
-// end setup menus
 
+function theme_logo_setup() {
+    add_theme_support('custom-logo');
+}
 
-
-// add theme support
-add_theme_support('custom-background');
-add_theme_support('custom-header');
-add_theme_support('custom-logo');
-add_theme_support('post-thumbnails');
+add_action('after_setup_theme', 'theme_logo_setup');
 // end theme support
-
-
-// add_image_size('Main Image', 10, 10);
