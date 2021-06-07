@@ -21,5 +21,21 @@
         )); 
         ?>
     <img class="image_slider" src="<?php header_image(); ?>"/>
-    
+    <?php 
+  // The Query
+// $my_posts = array(
+//     'p' => 196
+// );
+
+// $post_query = new WP_Query($my_posts);
+
+// // The Loop
+// wp_reset_postdata();
+// if ( $post_query->have_posts() ) : while ( $post_query->have_posts() ) : $post_query->the_post();
+//     the_content(); 
+//     endwhile; 
+//         wp_reset_postdata();
+//     else:  
+// endif;
+?>    
 </div>

@@ -5,10 +5,6 @@ Version: 1.0
 */
 
 /*top of the page*/
-
-/*  navigation */
-
-
 body {
     margin: 0px auto;
     
@@ -18,7 +14,7 @@ body {
     margin: 0px;
     padding: 0px;
     width: 101%;
-    height: 40px;
+    height: 30px;
 
     background-color: #FBA000;
     border: 1px solid white;
@@ -33,45 +29,55 @@ body {
     margin-bottom: 5px;
 
     position: relative;
-    left: 95%;
-    top: 6px;
+    left: 93%;
+    top: 4px;
 }
+/* end top of page */
 
+
+/* logo */
 .custom-logo {
-    width: 350px;
+    width: 225PX;
     height: 165px;
+    border: solid #FBA000 2px;
 }
 
 .custom-logo-link {
-    width: 350px;
+    width: 225px;
     height: 165px;
 
     position: relative;
     top: 4px;
-    left: 90px;
+    left: 105px;
 }
 
+/*  end logo */
+
+
+/*  navigation-menu */
+
+/* container */
 .menu-primary-navigation-container {
     position: relative;
-    left: 27%;
+    left: 17%;
     bottom: 85px;
     width: 1400px;
 }
 
+/* div */
 .primary-menu {
     margin: 0px;
     padding: 0px;
-
-    list-style: none;
     width: 100%;
     text-align: center;
 
 }
 
+/* text */
 a {
     text-decoration: none;
     display: block;
-    padding: 0px 25px;
+    padding: 0px 10px;
     font-size: 20px;
     font-weight: bold;
     color: #49C2CE;
@@ -79,6 +85,7 @@ a {
     position: relative;
 }
 
+/* list */
 ul {
     margin: 0px;
     padding: 0px;
@@ -93,14 +100,18 @@ li {
     right: 5%;
 }
 
-/* end navigation */
+/* end list */
 
+/* end navigation-menu */
+
+
+/* image header */
 .image_slider {
-    width: 1700px;
-    height: 800px;
+    width: 86%;
+    height: 600px;
 
     position: relative;
-    left: 6%;
+    left: 7.6%;
     bottom: 13px;
 
     margin: 0px;
@@ -108,6 +119,204 @@ li {
 
     border: solid #FBA000 1px;
 }
+
+/* end image header */
+
+
+/* block of images */
+/* ul */
+.blocks-gallery-grid {
+    position: relative;
+    left: 11.9%;
+    bottom: 245px;
+
+}
+/* the pictures */
+.blocks-gallery-grid.is-cropped .blocks-gallery-image a, .blocks-gallery-grid.is-cropped .blocks-gallery-image img, .blocks-gallery-grid.is-cropped .blocks-gallery-item a, .blocks-gallery-grid.is-cropped .blocks-gallery-item img, .wp-block-gallery.is-cropped .blocks-gallery-image a, .wp-block-gallery.is-cropped .blocks-gallery-image img, .wp-block-gallery.is-cropped .blocks-gallery-item a, .wp-block-gallery.is-cropped .blocks-gallery-item img {
+   height: 50%;
+   border: solid #FBA000 2px;
+
+}
+
+.wp-block-gallery.is-cropped .blocks-gallery-item img {
+    width: 311.5px;
+    border: solid #FBA000 2px;
+
+}
+/* end of pictures */
+/* end block of images */
+
+
+/* woning-section */
+
+.woning-section-div {
+    position: relative;
+    bottom: 150px;
+}
+.woning-section-title {
+    color: #49C2CE;
+    font-size: 48px;
+    font-weight: bold;
+
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    
+}
+
+/* div-1 */
+.div-1 {
+    background-color: #F0E3DE;
+}
+
+/* image 1 & 3 */
+.wp-block-media-text__media img {
+    height: 460px;
+    width: 120%;
+    position: relative;
+    left: 13%;
+}
+
+/* title-1 */
+
+.content-1-title {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    left: 45%;
+    bottom: 20px;
+    color: #49C2CE;
+}
+
+/* text-1 */
+.content-1-text {
+    position: relative;
+    left: 45%;
+
+    width: 325px;
+    font-size: 20px;
+}
+
+
+/* div-2 */
+.div-2 {
+    background-color: #F0C166;
+}
+
+/* image 2 */
+.wp-block-media-text.has-media-on-the-right .wp-block-media-text__media {
+    position: relative;
+    right: 365px;
+}
+
+/* title-2 */
+.content-2-title {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+
+    bottom: 20px;
+    color: white;
+}
+
+/* text-2 */
+.content-2-text {
+    position: relative;
+
+    width: 325px;
+    font-size: 20px;
+}
+
+/* div-3 */
+.div-3 {
+    background-color: #49C2CE;
+}
+
+/* title-3 */
+.content-3-title {
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+
+    left: 45%;
+    bottom: 20px;
+    color: #F0E3DE;
+}
+
+/* text-3 */
+.content-3-text {
+    position: relative;
+    left: 45%;
+
+    width: 325px;
+    font-size: 20px;
+}
+
+
+.wp-image-165 {
+    width: 1305px;
+    height: 460px;
+
+    position: relative;
+    left: 6.5%;
+}
+
+.wp-block-image {
+    height: 460px;
+    margin: 0px;
+    padding: 0px;
+
+    background-color: #F0E3DE;
+}
+/* end of woning-section */
+
+
+/* tevreden gasten - pop up */
+/* .tvg-background {
+    width: 375px;
+    height: 300px;
+    background-color: #F0E3DE;
+
+    position: relative;
+    bottom: 350px;
+    left: 17%;
+}
+
+.tvg-title {
+    font-weight: bolder;
+    font-size: 26px;
+    color: #49C2CE;
+
+    position: relative;
+    top: 10%;
+    left: 5%;
+}
+
+.tvg-text {
+    width: 225px;
+    height: 400px;
+    font-size: 18px;
+    color: darkslategrey;
+
+    position: relative;
+    top: 20%;
+    text-align: left;
+    left: 5%;
+}
+
+.reserveer-knop {
+    background-color: #F0C166;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    font-size: 20px;
+
+    position: relative;
+    bottom: 65%;
+    left: 53%;
+} */
+
+/* tevreden gasten - op up ~ end */
 
 /*start navigation bar*/
 /* 
