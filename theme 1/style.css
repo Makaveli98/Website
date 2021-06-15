@@ -7,6 +7,7 @@ Version: 1.0
 /*top of the page*/
 body {
     margin: 0px auto;
+    background-color: rgba(251, 160, 0, 0.05);
     
 }
 
@@ -272,39 +273,38 @@ li {
 
 
 /* tevreden gasten - pop up */
-/* .tvg-background {
-    width: 375px;
-    height: 300px;
-    background-color: #F0E3DE;
 
+.tvg-pop_up {
     position: relative;
-    bottom: 350px;
-    left: 17%;
+    bottom: 1400px;
+    left: 320px;
+
+    width: 400px;
+    height: 300px;
 }
 
 .tvg-title {
-    font-weight: bolder;
-    font-size: 26px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+
+    font-size: 24px;
+    font-weight: bold;
     color: #49C2CE;
 
-    position: relative;
-    top: 10%;
-    left: 5%;
 }
 
 .tvg-text {
-    width: 225px;
-    height: 400px;
-    font-size: 18px;
-    color: darkslategrey;
-
     position: relative;
-    top: 20%;
-    text-align: left;
-    left: 5%;
+    left: 40px;
+    top: 40px;
+
+    font-size: 18px;
+    width: 250px;
+
 }
 
-.reserveer-knop {
+.reserveer_2 {
     background-color: #F0C166;
     border: none;
     color: white;
@@ -312,35 +312,311 @@ li {
     font-size: 20px;
 
     position: relative;
-    bottom: 65%;
-    left: 53%;
-} */
-
+    top: 50px;
+    left: 225px;
+}
 /* tevreden gasten - op up ~ end */
 
-/*start navigation bar*/
-/* 
-.navBar {
-    margin: auto;
-    width: 86.7%;
+
+/* faciliteiten&huisregels-section */
+.faciliteiten-huisregels-section {
+    background-color: #5D90A6;
+    position: relative;
+    bottom: 166px;
+    height: 1000px;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.faciliteiten-huisregels-title {
     text-align: center;
+    color: white;
+    font-size: 36px;
+
+    position: relative;
+    top: 12.5%;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+/* eerste etage */
+.eerste-etage {
+    border-top: solid white 3px;
+    border-bottom: solid white 3px;
+
+    position: relative;
+    top: 17%;
+    height: 15%;
+
+    padding: 5px;
+    margin: 5px;
+}
+
+.etage-title {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+
+    position: relative;
+    left: 25%;
+    top: 10%;
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.eerste-etage-plaats-div {
+    position: relative;
+    bottom: 25%;
+    left: 42%;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.eerste-etage-plaats {
+    color: white;
+    font-size: 24px;
+
+    padding: 8px;
+    margin: 8px;
+}
+
+.eerste-etage-fac-div {
+    position: relative;
+    left: 60%;
+    bottom: 130%;
+
     display: flex;
-    padding-left: 13%;
-    position: sticky;
-    border: 1px solid black;
+
+    margin: 0px;
+    padding: 0px;
 }
 
-.logo {
-    position: relative;
-    right: 15%;
-    padding-left: 8%;
+.eerste-etage-fac {
+    color: white;
+    font-size: 18px;
+
+    padding-inline: 30px;
+    margin: 10px;
+    padding: 5px;
+
 }
 
-.navBarTitle {
+/* eerste_etage ~ end */
+
+
+/* tweede_etage */
+.tweede-etage {
+    border-bottom: solid white 3px;
+
     position: relative;
-    left: -9%;
-    padding: 1.5%;
-    color: lightskyblue;
-    font-size: 25px;
-} */
-/*end navigation bar */
+    top: 17%;
+    height: 15%;
+
+    padding: 5px;
+    margin: 5px;
+}
+
+.tweede_etage_title {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+
+    position: relative;
+    left: 25%;
+    top: 10%;
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.tweede-etage-plaats-div {
+    position: relative;
+    bottom: 25%;
+    left: 42%;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.tweede-etage-plaats {
+    color: white;
+    font-size: 24px;
+
+    padding: 8px;
+    margin: 8px;
+}
+
+.tweede-etage-fac-div {
+    position: relative;
+    left: 60%;
+    bottom: 130%;
+
+    display: flex;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.tweede-etage-fac {
+    color: white;
+    font-size: 18px;
+
+    padding-inline: 30px;
+    margin: 10px;
+    padding: 5px;
+
+}
+/* tweede_etage ~ end */
+
+
+/* algemeen */
+.algemeen {
+    border-bottom: solid white 3px;
+
+    position: relative;
+    top: 17%;
+    height: 15%;
+
+    padding: 5px;
+    margin: 5px;
+}
+
+.algemeen-title {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+
+    position: relative;
+    left: 24%;
+    top: 10%;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.algemeen-fac-div {
+    position: relative;
+    left: 40%;
+
+    display: flex;
+    bottom: 20%;
+
+    margin: 0px;
+    padding: 0px 35px;
+    /* padding-inline: 35px; */
+}
+
+.algemeen-fac {
+    color: white;
+    font-size: 20px;
+
+    padding: 7px;
+    margin: 7px;
+}
+/* algemeen ~ end */
+
+
+/* huisregels */
+.huisregels {
+    position: relative;
+    top: 13%;
+    height: 7%;
+
+    padding: 5px;
+    margin: 5px;
+}
+
+.huisregels-title {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+
+    position: relative;
+    left: 24%;
+    top: 80%;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.huisregels-div {
+    position: relative;
+    left: 37%;
+
+    display: flex;
+    top: 10%;
+
+    margin: 0px;
+    padding-inline: 25px;
+}
+
+.huisregel {
+    color: white;
+    font-size: 18px;
+
+    padding: 7px;
+    margin: 7px;
+
+}
+
+
+/* check in and out */
+.check-in-div {
+    position: relative;
+    left: 68%;
+    bottom: 130%;
+
+    width: 6%;
+}
+
+.check-out-div {
+    position: relative;
+    left: 74%;
+    bottom: 262%;
+
+    width: 6%;
+    border-left: solid white 1px;
+
+    padding: 10px;
+}
+
+.check {
+    color: white;
+    font-size: 19px;
+}
+/* check in and out ~ end */
+
+
+/* extra info */
+.extra-info-title {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+
+    position: relative;
+    left: 24%;
+    bottom: 150px;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.extra-info-text  {
+    color: white;
+    position: relative;
+    left: 30%;
+    bottom: 150px;
+
+    width: 55%;
+}
+/* extra info ~ end */
+/* huisregels ~ end */
+
+
+

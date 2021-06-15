@@ -16,14 +16,9 @@
 }
 ?>
 
-<!-- <div class="tvg-background">
-    <section class="tvg-title"> Tevreden gasten </section>
-    <section class="tvg-text"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"</section>
-    <button class="reserveer-knop"> Reserveer nu </button>
-</div> -->
-
 <?php get_footer();?>
-    
+
+<!-- <button class="reserveer_2"> Reserveer nu </button> -->
 </body>
 </html>
  
