@@ -1,0 +1,76 @@
+html {
+    background-color: #333;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    width: 0%;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+}
+
+.social-icons {
+    position: relative;
+}
+
+.social-icons-container {
+    width: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.social-icons-container ul {
+    list-style-type: none;
+    animation: socialIconsAnimation 2.55s ease-in forwards;
+}
+
+.social-icons-container li {
+    width: 50px;
+    height: 50px;
+}
+
+.social-icons-container figure {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.insta-icon {
+    content: "";
+    background: url("../images/instagram logo_icon.png") no-repeat center center;
+    background-size: cover;
+    width: 65%;
+    height: 65%;
+}
+
+.fb-icon {
+    content: "";
+    background: url("../images/facebook logo_icon.png") no-repeat center center;
+    background-size: cover;
+    width: 65%;
+    height: 65%;
+}
+
+.ytube-icon {
+    content: "";
+    background: url("../images/youtube logo_icon.png") no-repeat center center;
+    background-size: cover;
+    width: 65%;
+    height: 65%;
+}
+
+
+@keyframes socialIconsAnimation {
+    from { opacity: 0; }    
+    to { opacity: 1; }
+}

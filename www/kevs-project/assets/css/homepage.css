@@ -1,0 +1,145 @@
+html, body {
+    background-color: #333;
+}
+
+body {
+    overflow: hidden;
+}
+
+.header-media {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.header-media figure {
+    width: 100%;
+    height: 100%;
+}
+
+.header-img {
+    content: "";
+    background: url('../images/homepage-img.png') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+.header-img::after {
+    content: "";
+    /* background-color: rgba(000, 0, 0, .05); */
+    background-color: rgba(266, 266, 266, .05);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.home-page-text-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Times New Roman", cursive;
+    text-align: center;
+}
+
+.container-wrapper {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+
+    position: relative;
+    top: 7em;
+}
+
+.home-page-text-container h2 {
+    color: crimson;
+    color: red;
+    font-size: clamp(36px, 5vw, 48px);
+    color: rgba(266, 266, 266, .9);
+    font-weight: 900;
+}
+
+.text-wrapper {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .75em;
+    width: 100%;
+}
+
+.text-wrapper p {
+    line-height: 1.5;
+}
+
+.text-wrapper p:nth-child(1) {
+    font-size: clamp(18px, 3vw, 22px);
+    color: rgba(266, 266, 266, .9);
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.text-wrapper p:nth-child(2) {
+    font-size: clamp(16px, 2vw, 20px);
+    /* color: rgb(90, 87, 87); */
+    /* color: 	rgb(192,192,192); */
+    color: crimson;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.text-wrapper::before {
+    content: "";
+    background-color: crimson;
+    position: absolute;
+    height: 3px;
+    width: clamp(15em, 100%, 50em);
+    animation: textWrapperBefore 2.75s ease-out forwards;
+}
+
+.text-wrapper::after {
+    content: "";
+    background-color: crimson;
+    position: absolute;
+    height: 3px;
+    width: clamp(10em, 80%, 45em);
+    animation: textWrapperAfter 2.75s ease-out forwards;
+}
+
+
+@keyframes textWrapper {
+    from { opacity: 0; }
+    to { opacity: 1; } 
+}
+
+@keyframes homePageHeader {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes textWrapperBefore {
+    from { position: relative; left: -200%; }
+    to { position: relative; left: 0; }
+}
+
+@keyframes textWrapperAfter {
+    from { position: relative; right: -200%; }
+    to { position: relative; right: 0; }
+}
